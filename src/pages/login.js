@@ -35,7 +35,7 @@ const LoginPage = (props) => {
 
     if (validateEmail(loginForm.email) !== true) {
       tempError.email =
-        'Please use a valid email address, such as user@example.com.';
+        'Please use a valid email address now, such as user@example.com.';
       validForm = false;
     } else {
       tempError.email = '';

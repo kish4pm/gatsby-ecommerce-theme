@@ -32,14 +32,14 @@ const IndexPage = () => {
         image={'/banner1.png'}
         title={'Massive discounts today'}
         subtitle={'Discover Autumn Winter 2023'}
-        ctaText={'shop now'}
+        ctaText={'shop now itself'}
         ctaAction={goToShop}
       />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
+          This is a kish of the Sydney theme for verse by{' '}
           <span className={styles.gold}>matter design.</span>
         </p>
         <p>
@@ -51,7 +51,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'New Trendy Collection Spring'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -59,7 +59,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'New Arrivals Now'} link={'/shop'} textLink={'view all'} />
           <ProductCardGrid
             spacing={true}
             showSlider
