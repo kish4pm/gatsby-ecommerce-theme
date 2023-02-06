@@ -53,6 +53,11 @@ const FaqPage = (props) => {
                 take a little longer to be dispatched so please add five working
                 days just in case.
               </p>
+              <p>
+                If there’s something you want to know about your order, please
+                get in touch with us at customerservice@example.com or call us
+                on +44 (0)115 111 1111.
+              </p>
             </div>
           </div>
 
@@ -75,7 +80,7 @@ const FaqPage = (props) => {
               <p>
                 If there’s something you want to know about your order, please
                 get in touch with us at customerservice@example.com call us on
-                +44 (0)115 111 1111.
+                +44 (0)115 111 22222.
               </p>
             </div>
             <div className={styles.subSection}>
