@@ -30,7 +30,7 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Massive discounts today'}
+        title={'$$ Massive discounts today $$'}
         subtitle={'Discover Autumn Winter 2023'}
         ctaText={'shop now itself'}
         ctaAction={goToShop}
@@ -51,7 +51,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Trendy Collection Spring'} />
+          <Title name={'New Trendy Collection Spring__yahoo'} />
           <ProductCollectionGrid />
         </Container>
       </div>
